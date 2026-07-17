@@ -1,0 +1,43 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.group label {
+  font-weight: 600;
+  color: #374151;
+}
+
+.textarea {
+  min-height: 120px;
+
+  padding: 12px;
+
+  resize: vertical;
+
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+
+  outline: none;
+
+  font-size: 1rem;
+
+  font-family: inherit;
+}
+
+.textarea:focus {
+  border-color: #2563eb;
+}
+
+.actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 12px;
+}
