@@ -1,0 +1,63 @@
+.priority {
+
+  display: inline-flex;
+
+  align-items: center;
+
+  gap: 6px;
+
+  width: fit-content;
+
+  padding: 5px 10px;
+
+  border-radius: 999px;
+
+  font-size: 0.8rem;
+
+  font-weight: 600;
+
+}
+
+
+/* Priority Colors */
+
+.high {
+
+  background: #fee2e2;
+
+  color: #dc2626;
+
+}
+
+
+.medium {
+
+  background: #fef3c7;
+
+  color: #d97706;
+
+}
+
+
+.low {
+
+  background: #dcfce7;
+
+  color: #16a34a;
+
+}
+
+
+/* Dot */
+
+.dot {
+
+  width: 8px;
+
+  height: 8px;
+
+  border-radius: 50%;
+
+  background: currentColor;
+
+}

@@ -1,0 +1,45 @@
+.container {
+  display: flex;
+  align-items: center;
+}
+
+
+.avatars {
+  display: flex;
+  align-items: center;
+}
+
+
+/* Creates overlapping avatars */
+
+.avatars > * {
+  margin-left: -8px;
+}
+
+
+.avatars > *:first-child {
+  margin-left: 0;
+}
+
+
+.more {
+  width: 32px;
+  height: 32px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 50%;
+
+  background: #e5e7eb;
+
+  color: #374151;
+
+  font-size: 0.75rem;
+  font-weight: 600;
+
+  margin-left: -8px;
+
+  border: 2px solid white;
+}
